@@ -1,29 +1,32 @@
 <template>
   <div class="centrV">
-    <div id="Inputs">
+    <div class="PpP">
       <p>
-Выберите марку
+        Выберите марку
       </p>
+      <p>
+        Выбирите Модель
+      </p>
+      <p>
+        Год выпуска
+      </p>
+    </div>
+    <div id="Inputs">
+
       <select name="select">
         <option value="value#" selected></option>
         <option value="value#">Значение 1</option>
         <option value="value#">Значение 3</option>
       </select>
-    </div>
-    <div id="Inputs">
-      <p>
-Выбирите Модель
-      </p>
+
+
       <select name="select">
         <option value="value#" selected></option>
         <option value="value#">Значение 1</option>
         <option value="value#">Значение 3</option>
       </select>
-    </div>
-    <div id="Inputs">
-      <p>
-Год выпуска
-      </p>
+
+
       <select name="select">
         <option value="value#" selected></option>
         <option value="value#">Значение 1</option>
@@ -31,10 +34,10 @@
       </select>
     </div>
     <div>
-      <button id="#">Найти<svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M9.824 15.192H14.144L20.72 7.8L14.144 0.407999H9.824L15.032 6.384H0.224V9.216H15.032L9.824 15.192Z" fill="white"/>
-        </svg>
+      <NuxtLink to="battle">
+      <button id="search">Найти
         </button>
+    </NuxtLink>
     </div>
   </div>
 </template>
@@ -46,5 +49,36 @@ export default {
 </script>
 
 <style scoped>
+.centrV{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+
+}
+.centrV select{
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+
+}
+#search{
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 0.3em 1.2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
+}
+ a {
+  text-decoration: none;
+
+}
+
 
 </style>

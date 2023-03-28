@@ -10,7 +10,6 @@
 <script>
 import Localization from "@/components/Localization";
 import TheHeader from "@/components/TheHeader";
-import TheFilter from "../components/TheFilter.vue";
 import TheBattle from '../components/TheBattle.vue';
 
 export default {
@@ -18,8 +17,8 @@ export default {
   components: {
     Localization,
     TheHeader,
-    TheBattle,
-    TheFilter
+    TheBattle
+
 }
 }
 </script>

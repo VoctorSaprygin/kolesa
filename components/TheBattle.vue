@@ -1,9 +1,11 @@
 <template>
     <div class="container">
         <div class="back">
+          <NuxtLink to="app">
             <button>
                 ←
             </button>
+          </NuxtLink>
         </div>
         <div class="battle">
             <div class="left-battle-block">
@@ -215,7 +217,7 @@
 // export default {
 //     methods: {
 //         comparingData() {
-//             const 
+//             const
 //         }
 //     }
 // }
