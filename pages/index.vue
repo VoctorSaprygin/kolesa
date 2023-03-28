@@ -2,22 +2,25 @@
 <div>
   <Localization/>
   <TheHeader/>
-  <Battle/>
+  <!-- <TheFilter/> -->
+  <TheBattle/>
 </div>
 </template>
 
 <script>
 import Localization from "@/components/Localization";
 import TheHeader from "@/components/TheHeader";
-import Battle from "@/components/Battle";
+import TheFilter from "../components/TheFilter.vue";
+import TheBattle from '../components/TheBattle.vue';
+
 export default {
   name: 'IndexPage',
   components: {
     Localization,
     TheHeader,
-    Battle
-
-  }
+    TheBattle,
+    TheFilter
+}
 }
 </script>
 <style>
