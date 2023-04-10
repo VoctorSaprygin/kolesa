@@ -19,7 +19,6 @@
                         </p>
                     </div>
                     <div class="images">
-                        <img src="../assets/x3.jpeg" alt="">
                     </div>
                     <div class="info">
                         <p>
@@ -71,7 +70,7 @@
                         </p>
                     </div>
                     <div class="images">
-                        <img src="../assets/x6.jpeg" alt="">
+                        
                     </div>
                     <div class="info">
                         <p>
@@ -125,6 +124,7 @@
         margin-top: 40px;
     }
     .back button {
+        cursor: pointer;
         font-size: 17px;
         padding: 0.3em 1.2em;
         border: transparent;
@@ -152,7 +152,9 @@
     }
 
 
-
+    .data-car {
+        position: relative;
+    }
     .swipe-up {
         display: flex;
         justify-content: center;
@@ -200,6 +202,7 @@
         color: #374151;
     }
     .images img {
+        cursor: pointer;
         width: 400px;
         height: 300px;
     }
@@ -209,14 +212,18 @@
     .info {
         text-align: center;
     }
+
+    #img-hidden-1:focus {
+        background: transparent;
+    }
+    .modal {
+        position: absolute;
+        left: 100%;
+        top: 30%;
+        }
+
 </style>
 
 <script>
-// export default {
-//     methods: {
-//         comparingData() {
-//             const 
-//         }
-//     }
-// }
+
 </script>

@@ -1,0 +1,29 @@
+{
+  "media": [
+    {
+      "id": 1,
+      "name": "BMW m3",
+      "url": "https://alakcell-photos-kl.kcdn.kz/webp/87/870a937d-72c4-496e-b8d1-98d80d66abc6/1-750x470.webp"
+    },
+    {
+      "id": 2,
+      "name": "BMW x6",
+      "url": "https://alakcell-photos-kl.kcdn.kz/webp/f3/f3ed9ed4-bfb8-4d24-89b0-98cf55cc3be3/2-750x470.webp"
+    },
+    {
+      "id": 3,
+      "name": "BMW x5",
+      "url": "https://cf-kl.kcdn.online/webp/ee/ee6c434d-4267-4a62-b965-98dbc8e5760c/2-750x470.webp"
+    },
+    {
+      "id": 4,
+      "name": "BMW 520",
+      "url": "https://cf-kl.kcdn.online/webp/1e/1e9e8437-4399-4c92-8ec6-98e1cd9374d1/4-750x470.webp"
+    },
+    {
+      "id": 5,
+      "name": "BMW 420",
+      "url": "https://cf-kl.kcdn.online/webp/e9/e94e97f4-4238-40cb-9e15-98b985195853/4-750x470.webp"
+    }
+  ]
+}
