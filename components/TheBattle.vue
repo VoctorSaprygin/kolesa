@@ -13,9 +13,11 @@
                     </button>
                 </div>
                 <div class="data-car">
-                    <div class="brand">
+                    <div class="brand" 
+                    v-for="user in users" 
+                    :key="user.id">
                         <p>
-                            BMW
+                           {{ user.name }}
                         </p>
                     </div>
                     <div class="images">
@@ -112,6 +114,21 @@
         </div>
     </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      users: []
+    }
+  },
+  async fetch() {
+    const response = await fetch('http://localhost:3000/media')
+    const data = await response.json()
+    this.users = data
+  },
+}
+</script>
 
 <style scoped>
     .container {
@@ -224,6 +241,3 @@
 
 </style>
 
-<script>
-
-</script>
